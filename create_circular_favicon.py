@@ -1,4 +1,5 @@
 from PIL import Image, ImageDraw, ImageFilter
+import numpy as np
 
 # Load the image
 img_path = 'public/image11.jpeg'
@@ -18,30 +19,36 @@ img_cropped = img.crop((left, top, right, bottom))
 favicon_size = 256
 img_cropped = img_cropped.resize((favicon_size, favicon_size), Image.LANCZOS)
 
-# Create a high-quality circular mask with anti-aliasing
-# Use 4x supersampling for smoother edges
-supersample = 4
+# Create RGBA image
+img_rgba = img_cropped.convert('RGBA')
+datas = img_rgba.getdata()
+
+# Create circular mask with smooth anti-aliasing
+# Use higher resolution for better quality
+supersample = 8
 big_size = favicon_size * supersample
 
 # Create large mask
 mask_big = Image.new('L', (big_size, big_size), 0)
 draw = ImageDraw.Draw(mask_big)
-draw.ellipse((0, 0, big_size, big_size), fill=255)
 
-# Downsample for anti-aliasing
+# Draw slightly smaller circle to avoid edge artifacts
+margin = 2 * supersample  # Small margin to prevent white edges
+draw.ellipse((margin, margin, big_size - margin, big_size - margin), fill=255)
+
+# Apply gaussian blur for smoother edges
+mask_big = mask_big.filter(ImageFilter.GaussianBlur(radius=supersample))
+
+# Downsample for final anti-aliased mask
 mask = mask_big.resize((favicon_size, favicon_size), Image.LANCZOS)
 
-# Create output image with transparency
+# Create output with pure transparency
 output = Image.new('RGBA', (favicon_size, favicon_size), (0, 0, 0, 0))
-
-# Convert cropped image to RGBA
-img_rgba = img_cropped.convert('RGBA')
-
-# Composite with the mask
 output.paste(img_rgba, (0, 0))
 output.putalpha(mask)
 
-# Save as PNG
+# Save as PNG with full transparency
 output.save('public/favicon.png', 'PNG', optimize=True)
 
-print("Created circular favicon with anti-aliased edges at public/favicon.png")
+print("Created circular favicon with smooth anti-aliased edges and no white background")
+print(f"Favicon size: {favicon_size}x{favicon_size} pixels")
