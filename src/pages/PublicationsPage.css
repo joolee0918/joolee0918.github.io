@@ -1,0 +1,300 @@
+.publications-page {
+  background: var(--bg-main);
+}
+
+.publications-page .publications-section {
+  padding: 6rem 2rem;
+  background: #F5F5F5;
+  min-height: 60vh;
+}
+
+.publications-page .talks-section {
+  padding: 6rem 2rem;
+  background: var(--white);
+  min-height: 60vh;
+}
+
+.publications-page .publications-container,
+.publications-page .talks-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 8rem;
+  align-items: start;
+}
+
+.publications-page .section-header {
+  position: sticky;
+  top: 6rem;
+}
+
+.publications-page .section-header h2 {
+  font-size: 3.5rem;
+  margin: 0;
+  color: var(--primary-color);
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  font-family: 'Source Serif 4', 'Georgia', 'Times New Roman', serif;
+  font-optical-sizing: auto;
+  text-align: left;
+}
+
+.publications-page .section-subtitle {
+  display: none;
+}
+
+.publications-page .publications-content,
+.publications-page .talks-content {
+  width: 100%;
+}
+
+
+.publications-page .year-group {
+  margin-bottom: 2.5rem;
+}
+
+.publications-page .year-header {
+  font-size: 1.15rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  color: var(--primary-color);
+  font-family: 'Source Serif 4', 'Georgia', 'Times New Roman', serif;
+  font-optical-sizing: auto;
+}
+
+.publications-page .publication-item {
+  padding: 2rem 0;
+  border-top: 1px solid #999;
+  background: transparent;
+  display: block;
+  grid-template-columns: unset;
+  gap: unset;
+}
+
+.publications-page .publication-item:first-child {
+  border-top: none;
+}
+
+.publications-page .pub-content {
+  width: 100%;
+}
+
+.publications-page .pub-title {
+  font-size: 1.05rem;
+  color: var(--primary-color);
+  margin-bottom: 0.3rem;
+  font-weight: 500;
+  line-height: 1.4;
+  font-family: 'Source Serif 4', 'Georgia', 'Times New Roman', serif;
+  font-optical-sizing: auto;
+  letter-spacing: -0.02em;
+}
+
+.publications-page .pub-title a {
+  color: inherit;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.publications-page .pub-title a:hover {
+  opacity: 0.7;
+}
+
+.publications-page .pub-authors {
+  color: var(--text-light);
+  font-size: 0.9rem;
+  margin-bottom: 0.2rem;
+  line-height: 1.5;
+}
+
+.publications-page .pub-journal {
+  color: var(--text-color);
+  font-style: italic;
+  font-size: 0.9rem;
+  opacity: 0.85;
+  margin-bottom: 0;
+}
+
+.publications-page .talk-item {
+  padding: 2rem 0;
+  border-top: 1px solid #999;
+  background: transparent;
+}
+
+.publications-page .talk-item:first-child {
+  border-top: none;
+}
+
+.publications-page .talk-title {
+  font-size: 1.05rem;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.4;
+  font-family: 'Source Serif 4', 'Georgia', 'Times New Roman', serif;
+  font-optical-sizing: auto;
+  letter-spacing: -0.02em;
+}
+
+.publications-page .talk-event {
+  color: var(--text-color);
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+  font-weight: 400;
+  opacity: 0.85;
+}
+
+.publications-page .talk-meta {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+  color: var(--text-light);
+}
+
+.publications-page .talk-type {
+  padding: 0.3rem 0.8rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background: rgba(68, 85, 204, 0.08);
+  color: var(--primary-color);
+}
+
+.publications-page .talk-date {
+  color: var(--text-light);
+  font-size: 0.85rem;
+}
+
+.publications-page .talk-location {
+  color: var(--text-light);
+  font-size: 0.85rem;
+}
+
+/* Pagination Styles */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 3rem auto 0 auto;
+  padding-top: 2rem;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  left: -2%;
+}
+
+.pagination-btn {
+  padding: 0.5rem 0.75rem;
+  border: none;
+  background: transparent;
+  color: var(--text-light);
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  min-width: 40px;
+}
+
+.pagination-btn:hover:not(:disabled) {
+  color: var(--primary-color);
+  background: rgba(68, 85, 204, 0.08);
+}
+
+.pagination-btn.active {
+  color: var(--primary-color);
+  font-weight: 600;
+  background: transparent;
+}
+
+.pagination-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+@media (max-width: 1200px) {
+  .publications-page .publications-container,
+  .publications-page .talks-container {
+    grid-template-columns: 250px 1fr;
+    gap: 5rem;
+  }
+
+  .publications-page .section-header h2 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 968px) {
+  .publications-page .publications-section,
+  .publications-page .talks-section {
+    padding: 4rem 2rem;
+  }
+
+  .publications-page .publications-container,
+  .publications-page .talks-container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .publications-page .section-header {
+    position: static;
+  }
+
+  .publications-page .section-header h2 {
+    font-size: 3rem;
+  }
+
+  .publications-page .publication-item,
+  .publications-page .talk-item {
+    padding: 1.75rem 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .publications-page .publications-section,
+  .publications-page .talks-section {
+    padding: 3rem 1.5rem;
+  }
+
+  .publications-page .section-header h2 {
+    font-size: 2.5rem;
+  }
+
+  .publications-page .publication-item {
+    padding: 1.5rem 0;
+  }
+
+  .publications-page .pub-title,
+  .publications-page .talk-title {
+    font-size: 1rem;
+  }
+
+  .publications-page .talk-item {
+    padding: 1.5rem 0;
+  }
+
+  .publications-page .talk-meta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .pagination {
+    gap: 0.3rem;
+    margin-top: 2rem;
+  }
+
+  .pagination-btn {
+    padding: 0.5rem 0.8rem;
+    font-size: 0.85rem;
+  }
+}

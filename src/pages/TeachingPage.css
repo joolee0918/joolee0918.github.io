@@ -1,0 +1,250 @@
+.teaching-page {
+  background: var(--white);
+}
+
+.teaching-section {
+  padding: 6rem 2rem;
+  background: #F5F5F5;
+  min-height: 60vh;
+}
+
+.workshops-section {
+  padding: 6rem 2rem;
+  background: var(--white);
+  min-height: 40vh;
+}
+
+.teaching-page .teaching-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 8rem;
+  align-items: start;
+}
+
+.teaching-page .section-header {
+  position: sticky;
+  top: 6rem;
+}
+
+.teaching-page .section-header h2 {
+  font-size: 3.5rem;
+  margin: 0;
+  color: var(--primary-color);
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  font-family: 'Source Serif 4', 'Georgia', 'Times New Roman', serif;
+  font-optical-sizing: auto;
+  text-align: left;
+}
+
+.teaching-page .section-subtitle {
+  display: none;
+}
+
+.teaching-section .courses-list {
+  margin-top: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+.teaching-section .course-item {
+  padding: 2rem;
+  border: none;
+  background: var(--white);
+  border-radius: 12px;
+  transition: none;
+}
+
+.teaching-section .course-item:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+.workshops-section .courses-list {
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.workshops-section .course-item {
+  padding: 2rem 0;
+  border-top: 1px solid #999;
+  background: transparent;
+  border-radius: 0;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  transition: none;
+}
+
+.workshops-section .course-item:first-child {
+  border-top: none;
+}
+
+.workshops-section .course-item:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+.workshops-section .course-header {
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.teaching-page .course-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.teaching-page .course-main {
+  flex: 1;
+}
+
+.teaching-page .course-code {
+  font-size: 0.95rem;
+  color: var(--primary-color);
+  font-weight: 500;
+  margin: 0 0 0.5rem 0;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  opacity: 0.8;
+}
+
+.teaching-page .course-title {
+  font-size: 1.35rem;
+  color: var(--primary-color);
+  margin: 0;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  font-family: 'Source Serif 4', 'Georgia', 'Times New Roman', serif;
+  font-optical-sizing: auto;
+}
+
+.teaching-page .course-level {
+  display: inline-block;
+  padding: 0.3rem 0.8rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background: rgba(68, 85, 204, 0.08);
+  color: var(--primary-color);
+  white-space: nowrap;
+  flex-shrink: 0;
+  align-self: flex-start;
+}
+
+.teaching-page .course-description {
+  color: var(--text-color);
+  line-height: 1.7;
+  font-size: 0.95rem;
+  font-weight: 400;
+  margin: 0 0 1rem 0;
+  opacity: 0.85;
+}
+
+.teaching-page .course-semester {
+  color: var(--text-light);
+  font-size: 0.85rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+@media (max-width: 1200px) {
+  .teaching-page .teaching-container {
+    grid-template-columns: 250px 1fr;
+    gap: 5rem;
+  }
+
+  .teaching-page .section-header h2 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 968px) {
+  .teaching-section,
+  .workshops-section {
+    padding: 4rem 2rem;
+  }
+
+  .teaching-page .teaching-container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .teaching-page .section-header {
+    position: static;
+  }
+
+  .teaching-page .section-header h2 {
+    font-size: 3rem;
+  }
+
+  .teaching-section .courses-list {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .teaching-section .course-item {
+    padding: 1.75rem;
+  }
+
+  .workshops-section .course-item {
+    padding: 1.75rem 0;
+  }
+
+  .teaching-page .course-title {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .teaching-section,
+  .workshops-section {
+    padding: 3rem 1.5rem;
+  }
+
+  .teaching-page .section-header h2 {
+    font-size: 2.5rem;
+  }
+
+  .teaching-section .courses-list {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .teaching-section .course-item {
+    padding: 1.5rem;
+  }
+
+  .workshops-section .course-item {
+    padding: 1.5rem 0;
+  }
+
+  .teaching-page .course-header {
+    gap: 1rem;
+  }
+
+  .teaching-page .course-title {
+    font-size: 1.15rem;
+  }
+
+  .teaching-page .course-code {
+    font-size: 0.9rem;
+  }
+
+  .teaching-page .course-level {
+    font-size: 0.7rem;
+    padding: 0.25rem 0.6rem;
+  }
+}

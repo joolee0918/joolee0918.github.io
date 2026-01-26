@@ -1,0 +1,194 @@
+.news-page {
+  padding: 6rem 2rem;
+  background: var(--white);
+  min-height: 80vh;
+}
+
+.news-page .news-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 8rem;
+  align-items: start;
+}
+
+.news-page .section-header {
+  position: sticky;
+  top: 6rem;
+}
+
+.news-page .section-header h2 {
+  font-size: 3.5rem;
+  margin: 0;
+  color: var(--primary-color);
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  font-family: 'Source Serif 4', 'Georgia', 'Times New Roman', serif;
+  font-optical-sizing: auto;
+  text-align: left;
+}
+
+.news-page .section-subtitle {
+  display: none;
+}
+
+.news-page .news-list {
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.news-page .news-item {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  gap: 8rem;
+  padding: 3rem 0;
+  border-top: 1px solid #999;
+  background: transparent;
+}
+
+.news-page .news-item:first-child {
+  border-top: none;
+}
+
+.news-page .news-date {
+  font-size: 0.95rem;
+  color: var(--primary-color);
+  font-weight: 500;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  opacity: 0.8;
+}
+
+.news-page .news-category {
+  display: inline-block;
+  padding: 0.3rem 0.8rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.75rem;
+}
+
+.news-page .news-category.grant {
+  background: rgba(68, 85, 204, 0.08);
+  color: var(--primary-color);
+}
+
+.news-page .news-category.publication {
+  background: rgba(68, 85, 204, 0.08);
+  color: var(--primary-color);
+}
+
+.news-page .news-category.conference {
+  background: rgba(68, 85, 204, 0.08);
+  color: var(--primary-color);
+}
+
+.news-page .news-category.seminar {
+  background: rgba(68, 85, 204, 0.08);
+  color: var(--primary-color);
+}
+
+.news-page .news-category.lab-news {
+  background: rgba(68, 85, 204, 0.08);
+  color: var(--primary-color);
+}
+
+.news-page .news-title {
+  font-size: 1.4rem;
+  color: var(--primary-color);
+  margin-bottom: 0.75rem;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  font-family: 'Source Serif 4', 'Georgia', 'Times New Roman', serif;
+  font-optical-sizing: auto;
+}
+
+.news-page .news-description {
+  color: var(--text-color);
+  line-height: 1.7;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0;
+  opacity: 0.85;
+}
+
+@media (max-width: 1200px) {
+  .news-page .news-container {
+    grid-template-columns: 250px 1fr;
+    gap: 5rem;
+  }
+
+  .news-page .section-header h2 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .news-page .news-item {
+    grid-template-columns: 200px 1fr;
+    gap: 4rem;
+  }
+
+  .news-page .news-title {
+    font-size: 1.35rem;
+  }
+}
+
+@media (max-width: 968px) {
+  .news-page {
+    padding: 4rem 2rem;
+  }
+
+  .news-page .news-container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .news-page .section-header {
+    position: static;
+  }
+
+  .news-page .section-header h2 {
+    font-size: 3rem;
+  }
+
+  .news-page .news-item {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 2.5rem 0;
+  }
+
+  .news-page .news-title {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .news-page {
+    padding: 3rem 1.5rem;
+  }
+
+  .news-page .section-header h2 {
+    font-size: 2.5rem;
+  }
+
+  .news-page .news-item {
+    padding: 2rem 0;
+  }
+
+  .news-page .news-title {
+    font-size: 1.15rem;
+  }
+
+  .news-page .news-date {
+    font-size: 0.9rem;
+  }
+}

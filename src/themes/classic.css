@@ -1,0 +1,415 @@
+/* Classic Theme - Original gray-blue-lavender design */
+
+/* Hide Hero section in classic theme */
+body.classic .hero {
+  display: none;
+}
+
+/* About Section - Classic */
+body.classic .about {
+  padding: 4rem 2rem 3rem;
+  background-image: url('/image11.jpeg');
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+body.classic .about::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--bg-main);
+  opacity: 0.85;
+  z-index: 0;
+}
+
+body.classic .about-container {
+  max-width: 1100px;
+  position: relative;
+  z-index: 1;
+}
+
+body.classic .about-header {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 3.5rem;
+  align-items: start;
+  margin-bottom: 3.5rem;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+body.classic .profile-photo {
+  width: 220px;
+  border-radius: 4px;
+  border: 1px solid var(--border-color);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+body.classic .about-intro {
+  padding-top: 0;
+}
+
+body.classic .about-intro h2 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+  letter-spacing: -0.03em;
+}
+
+body.classic .about-intro .title {
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-bottom: 1.8rem;
+}
+
+body.classic .about-intro .description {
+  font-size: 1.05rem;
+  font-weight: 400;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+
+body.classic .research-section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  letter-spacing: -0.03em;
+}
+
+body.classic .research-grid {
+  gap: 2.5rem;
+  margin-top: 0;
+}
+
+body.classic .research-card {
+  background: var(--white);
+  padding: 2.8rem 2.2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body.classic .research-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 102, 204, 0.12);
+}
+
+body.classic .research-card h3 {
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin-bottom: 1.1rem;
+}
+
+body.classic .card-description {
+  font-size: 0.98rem;
+  font-weight: 400;
+}
+
+/* News Section - Classic */
+body.classic .news {
+  padding: 4rem 2rem;
+  background: var(--white);
+  border-top: none;
+}
+
+body.classic .news-container {
+  max-width: 900px;
+}
+
+body.classic .news-header-row {
+  display: block;
+  margin-bottom: 2rem;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+body.classic .news-section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.9rem;
+  letter-spacing: -0.03em;
+}
+
+body.classic .news-list {
+  margin-top: 2.5rem;
+}
+
+body.classic .news-item {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 2rem;
+  padding: 1.8rem;
+  margin-bottom: 1.5rem;
+  background: var(--white);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  border-top: 1px solid var(--border-color);
+}
+
+body.classic .news-item:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-color: var(--accent-color);
+}
+
+body.classic .news-title-wrapper {
+  padding-top: 0;
+}
+
+body.classic .news-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+}
+
+body.classic .news-content {
+  padding-top: 0;
+}
+
+body.classic .news-description {
+  color: var(--text-color);
+  font-size: 0.95rem;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+body.classic .news-date {
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding-top: 0.3rem;
+  text-align: left;
+  order: -1;
+}
+
+body.classic .news-category {
+  display: inline-block;
+  padding: 0.3rem 0.8rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.8rem;
+}
+
+body.classic .news-category.grant {
+  background: #E8F4F0;
+  color: #2C6B5A;
+}
+
+body.classic .news-category.publication {
+  background: #E8F0F8;
+  color: #365C8D;
+}
+
+body.classic .news-category.conference {
+  background: #FFF5E8;
+  color: #9C6B2C;
+}
+
+body.classic .news-category.lab-news {
+  background: #F3EDF7;
+  color: #6B4C7A;
+}
+
+/* Publications Section - Classic */
+body.classic .publications {
+  padding: 4rem 2rem;
+  background: var(--white);
+  border-top: none;
+}
+
+body.classic .publications-container {
+  max-width: 900px;
+}
+
+body.classic .section-header {
+  display: block;
+  margin-bottom: 2rem;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+body.classic .section-header h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.9rem;
+  letter-spacing: -0.03em;
+}
+
+body.classic .section-subtitle {
+  font-size: 1.08rem;
+}
+
+body.classic .publications-list {
+  margin-top: 2.5rem;
+}
+
+body.classic .year-group {
+  margin-bottom: 2.5rem;
+}
+
+body.classic .year-header {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--accent-color);
+}
+
+body.classic .publication-item {
+  display: flex;
+  grid-template-columns: none;
+  justify-content: space-between;
+  background: var(--white);
+  padding: 1.8rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: all 0.2s ease;
+}
+
+body.classic .publication-item:first-child {
+  border-top: 1px solid var(--border-color);
+}
+
+body.classic .publication-item:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  border-color: var(--accent-color);
+  transform: none;
+}
+
+body.classic .pub-content {
+  flex: 1;
+  padding-top: 0;
+}
+
+body.classic .pub-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+  line-height: 1.4;
+}
+
+body.classic .pub-authors {
+  font-size: 0.95rem;
+  margin-bottom: 0.7rem;
+}
+
+body.classic .pub-journal {
+  font-size: 0.95rem;
+  color: var(--text-color);
+}
+
+body.classic .pub-quartile {
+  display: inline-block;
+  padding: 0.25rem 0.7rem;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+body.classic .pub-quartile.q1 {
+  background: #E8F0F8;
+  color: #365C8D;
+}
+
+body.classic .pub-quartile.q2 {
+  background: #E8F4F0;
+  color: #2C6B5A;
+}
+
+body.classic .pub-link {
+  margin-left: 1rem;
+  padding-top: 0;
+  text-align: left;
+  transition: transform 0.2s ease;
+}
+
+body.classic .pub-link:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+body.classic .pub-footer {
+  margin-top: 3rem;
+  padding-top: 0;
+  border-top: none;
+}
+
+body.classic .view-all-btn {
+  padding: 0.8rem 2rem;
+  background: #3344BB;
+  color: white;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
+}
+
+body.classic .view-all-btn:hover {
+  background: #2233AA;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(68, 85, 204, 0.3);
+  opacity: 1;
+}
+
+@media (max-width: 968px) {
+  body.classic .about-header {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+    text-align: center;
+  }
+
+  body.classic .profile-photo {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  body.classic .news {
+    padding: 3rem 1rem;
+  }
+
+  body.classic .news-item {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  body.classic .news-date {
+    padding-top: 0;
+  }
+
+  body.classic .publications {
+    padding: 3rem 1rem;
+  }
+
+  body.classic .publication-item {
+    flex-direction: column;
+  }
+
+  body.classic .pub-link {
+    margin-left: 0;
+    margin-top: 1rem;
+    align-self: flex-end;
+  }
+
+  body.classic .pub-title {
+    font-size: 1rem;
+  }
+
+  body.classic .pub-meta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+}
