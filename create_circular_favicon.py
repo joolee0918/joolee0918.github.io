@@ -22,11 +22,13 @@ img_large = img_cropped.resize((temp_size, temp_size), Image.LANCZOS)
 mask_large = Image.new('L', (temp_size, temp_size), 0)
 draw = ImageDraw.Draw(mask_large)
 
-# Draw circle that fills the entire square (no margin)
-draw.ellipse((0, 0, temp_size, temp_size), fill=255)
+# Draw circle that's SMALLER than the square to avoid any edge artifacts
+# This effectively crops inward by about 2% on each side
+inset = int(temp_size * 0.02)  # 2% inset from edges
+draw.ellipse((inset, inset, temp_size - inset, temp_size - inset), fill=255)
 
-# Apply strong gaussian blur for ultra-smooth edges
-mask_large = mask_large.filter(ImageFilter.GaussianBlur(radius=20))
+# Apply very strong gaussian blur for ultra-smooth edges
+mask_large = mask_large.filter(ImageFilter.GaussianBlur(radius=30))
 
 # Apply mask to large image
 img_large_rgba = img_large.convert('RGBA')
@@ -45,8 +47,8 @@ for favicon_size in sizes:
     else:
         output.save(f'public/favicon-{favicon_size}.png', 'PNG', optimize=True)
 
-print("Created circular favicons in multiple sizes:")
+print("Created circular favicons with 2% inset to avoid white edges:")
 print("  - favicon.png (256x256 - main)")
 print("  - favicon-16.png, favicon-32.png, favicon-48.png")
 print("  - favicon-64.png, favicon-128.png")
-print("All with ultra-smooth anti-aliased edges and pure transparency")
+print("Circle is slightly smaller to ensure only colored content is visible")
