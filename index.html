@@ -15,6 +15,16 @@
     <title>Jooyoung Lee - Biostatistics & Lifetime Data Analysis Lab</title>
   </head>
   <body>
+    <script>
+      // Handle redirect from 404.html for GitHub Pages SPA routing
+      (function() {
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect !== location.href) {
+          history.replaceState(null, null, redirect);
+        }
+      })();
+    </script>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
