@@ -23,9 +23,7 @@ const ContactPage = () => {
             <div className="info-item">
               <h3 className="info-label">Office</h3>
               <p className="info-value">
-                Department of Applied Statistics<br />
-                College of Business and Economics (Building 310)<br />
-                Chung-Ang University<br />
+                310-1031 Chung-Ang University<br />
                 84 Heukseok-ro, Dongjak-gu, Seoul, Republic of Korea
               </p>
             </div>
