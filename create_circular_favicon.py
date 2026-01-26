@@ -1,5 +1,4 @@
 from PIL import Image, ImageDraw, ImageFilter
-import numpy as np
 
 # Load the image
 img_path = 'public/image11.jpeg'
@@ -15,40 +14,39 @@ bottom = top + size
 
 img_cropped = img.crop((left, top, right, bottom))
 
-# Resize to 256x256
-favicon_size = 256
-img_cropped = img_cropped.resize((favicon_size, favicon_size), Image.LANCZOS)
+# Create a very large version for super-smooth downsampling
+temp_size = 2048
+img_large = img_cropped.resize((temp_size, temp_size), Image.LANCZOS)
 
-# Create RGBA image
-img_rgba = img_cropped.convert('RGBA')
-datas = img_rgba.getdata()
+# Create circular mask at large size
+mask_large = Image.new('L', (temp_size, temp_size), 0)
+draw = ImageDraw.Draw(mask_large)
 
-# Create circular mask with smooth anti-aliasing
-# Use higher resolution for better quality
-supersample = 8
-big_size = favicon_size * supersample
+# Draw circle that fills the entire square (no margin)
+draw.ellipse((0, 0, temp_size, temp_size), fill=255)
 
-# Create large mask
-mask_big = Image.new('L', (big_size, big_size), 0)
-draw = ImageDraw.Draw(mask_big)
+# Apply strong gaussian blur for ultra-smooth edges
+mask_large = mask_large.filter(ImageFilter.GaussianBlur(radius=20))
 
-# Draw slightly smaller circle to avoid edge artifacts
-margin = 2 * supersample  # Small margin to prevent white edges
-draw.ellipse((margin, margin, big_size - margin, big_size - margin), fill=255)
+# Apply mask to large image
+img_large_rgba = img_large.convert('RGBA')
+img_large_rgba.putalpha(mask_large)
 
-# Apply gaussian blur for smoother edges
-mask_big = mask_big.filter(ImageFilter.GaussianBlur(radius=supersample))
+# Now downsample to final sizes - create multiple sizes for better browser compatibility
+sizes = [16, 32, 48, 64, 128, 256]
 
-# Downsample for final anti-aliased mask
-mask = mask_big.resize((favicon_size, favicon_size), Image.LANCZOS)
+for favicon_size in sizes:
+    # Downsample from large version for maximum quality
+    output = img_large_rgba.resize((favicon_size, favicon_size), Image.LANCZOS)
 
-# Create output with pure transparency
-output = Image.new('RGBA', (favicon_size, favicon_size), (0, 0, 0, 0))
-output.paste(img_rgba, (0, 0))
-output.putalpha(mask)
+    # Save with appropriate name
+    if favicon_size == 256:
+        output.save('public/favicon.png', 'PNG', optimize=True)
+    else:
+        output.save(f'public/favicon-{favicon_size}.png', 'PNG', optimize=True)
 
-# Save as PNG with full transparency
-output.save('public/favicon.png', 'PNG', optimize=True)
-
-print("Created circular favicon with smooth anti-aliased edges and no white background")
-print(f"Favicon size: {favicon_size}x{favicon_size} pixels")
+print("Created circular favicons in multiple sizes:")
+print("  - favicon.png (256x256 - main)")
+print("  - favicon-16.png, favicon-32.png, favicon-48.png")
+print("  - favicon-64.png, favicon-128.png")
+print("All with ultra-smooth anti-aliased edges and pure transparency")
