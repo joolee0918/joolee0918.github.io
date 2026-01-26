@@ -188,7 +188,7 @@ const AboutPage = () => {
                   className={`accordion-header ${openSection === 'affiliations' ? 'active' : ''}`}
                   onClick={() => toggleSection('affiliations')}
                 >
-                  <span className="accordion-title">Academic affiliations</span>
+                  <span className="accordion-title">Academic Affiliations</span>
                   <span className="accordion-icon">+</span>
                 </button>
                 {openSection === 'affiliations' && (
