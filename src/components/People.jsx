@@ -85,7 +85,7 @@ const People = () => {
     {
       name: 'Subin Jang (장수빈)',
       role: 'M.S. (Feb 2025)',
-      current: '',
+      current: 'LSK Global Pharma Services Co., Ltd.',
       email: 'sb12234@cau.ac.kr',
       contact: 'https://github.com/z64b1n'
     },
