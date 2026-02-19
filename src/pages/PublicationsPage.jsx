@@ -120,7 +120,7 @@ const PublicationsPage = () => {
       year: 2024,
       title: 'Weighting estimation in the cause-specific Cox regression with partially missing causes of failure',
       authors: 'Lee, J.*, Ogino, S., & Wang, M.',
-      journal: 'Statistics in Medicine 2024',
+      journal: 'Statistics in Medicine 2024; 43(13): 2575-2591',
       link: 'https://doi.org/10.1002/sim.10084'
     },
     {
