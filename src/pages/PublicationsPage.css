@@ -82,7 +82,7 @@
 }
 
 .publications-page .pub-title {
-  font-size: 1.05rem;
+  font-size: 1.25rem;
   color: var(--primary-color);
   margin-bottom: 0.3rem;
   font-weight: 500;
@@ -128,7 +128,7 @@
 }
 
 .publications-page .talk-title {
-  font-size: 1.05rem;
+  font-size: 1.25rem;
   color: var(--primary-color);
   margin-bottom: 0.5rem;
   font-weight: 500;
@@ -275,7 +275,7 @@
 
   .publications-page .pub-title,
   .publications-page .talk-title {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   .publications-page .talk-item {

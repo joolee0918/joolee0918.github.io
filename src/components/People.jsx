@@ -126,6 +126,13 @@ const People = () => {
 
   const alumni = [
     {
+      name: 'Mina Kim (김민아)',
+      role: 'Ph.D. (Feb 2025)',
+      current: 'Korea Invention Promotion Association',
+      email: 'kmakma@cau.ac.kr',
+      contact: 'https://github.com/MINA-KIMKK'
+    },
+    {
       name: 'Minseok Kim (김민석)',
       role: 'M.S. (Feb 2026)',
       current: '',
@@ -138,13 +145,6 @@ const People = () => {
       current: 'Seoul National University, Public Health',
       email: 'tl106@cau.ac.kr',
       contact: 'https://github.com/SIENN106'
-    },
-    {
-      name: 'Mina Kim (김민아)',
-      role: 'Ph.D. (Feb 2025)',
-      current: 'Korea Invention Promotion Association',
-      email: 'kmakma@cau.ac.kr',
-      contact: 'https://github.com/MINA-KIMKK'
     },
     {
       name: 'Subin Jang (장수빈)',
