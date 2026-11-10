@@ -13,28 +13,8 @@ const People = () => {
       photo: '/photos/bae.jpg'
     },
     {
-      name: 'Minseok Kim (김민석)',
-      role: 'M.S. Candidate',
-      education: 'Department of Statistics and Data Science, Chung-Ang University',
-      research: 'Survival Analysis, Biostatistics, Causal Inference',
-      skills: 'R, Python, SPSS, SAS',
-      email: 'ipad39@cau.ac.kr',
-      github: 'https://github.com/softstat',
-      photo: '/photos/kim.jpg'
-    },
-    {
-      name: 'Sieun Lee (이시은)',
-      role: 'M.S. Candidate',
-      education: 'Department of Statistics and Data Science, Chung-Ang University',
-      research: 'Survival Analysis, Biostatistics, Machine Learning',
-      skills: 'R, Python, SPSS, SAS',
-      email: 'tl106@cau.ac.kr',
-      github: 'https://github.com/SIENN106',
-      photo: '/photos/lee-sieun.jpg'
-    },
-    {
       name: 'Kyungeun Moon (문경은)',
-      role: 'M.S. Candidate',
+      role: 'Ph.D. Candidate',
       education: 'Department of Statistics and Data Science, Chung-Ang University',
       research: 'Survival Analysis, Biostatistics',
       skills: 'Python, SAS',
@@ -83,18 +63,82 @@ const People = () => {
       photo: '/photos/shin.jpg'
     },
     {
-      name: 'Hyunseo Park (박현서)',
-      role: 'B.S. Student, Department of Statistics, Ewha Womans University',
-      education: '',
-      research: 'Missing Data Imputation, Pharmacoepidemiology',
+      name: 'Eunseo Moon (문은서)',
+      role: 'M.S. Candidate',
+      education: 'Department of Statistics and Data Science, Chung-Ang University',
+      research: 'Biostatistics',
       skills: '',
-      email: 'qkrgustj0029@naver.com',
+      email: 'moones2012@cau.ac.kr',
+      github: 'https://github.com/nitroglycerine260',
+      photo: '/photos/moon-eunseo.jpg'
+    },
+    {
+      name: 'Soojung Lee (이수정)',
+      role: 'M.S. Candidate',
+      education: 'Department of Statistics and Data Science, Chung-Ang University',
+      research: 'Biostatistics',
+      skills: '',
+      email: 'sj282629@gmail.com',
+      github: 'https://github.com/sojomi',
+      photo: '/photos/lee-soojung.jpg'
+    },
+    {
+      name: 'Soojin Lee (이수진)',
+      role: 'M.S. Candidate',
+      education: 'Department of Statistics and Data Science, Chung-Ang University',
+      research: 'Biostatistics',
+      skills: '',
+      email: 'bonaya99@cau.ac.kr',
+      github: 'https://github.com/lees00jin',
+      photo: '/photos/lee-soojin.jpg'
+    },
+    {
+      name: 'Kseniia Chigai (치가이 크세니아)',
+      role: 'M.S. Candidate',
+      education: 'Department of Statistics and Data Science, Chung-Ang University',
+      research: 'Survival Analysis, Biostatistics, Machine Learning',
+      skills: '',
+      email: 'chigai@cau.ac.kr',
+      github: 'https://github.com/kseniiachigai',
+      photo: '/photos/chigai.jpg'
+    },
+    {
+      name: 'Yeryeong Lee (이예령)',
+      role: 'B.S. Student',
+      education: 'Department of Applied Statistics, Chung-Ang University',
+      research: 'Survival Analysis, Biostatistics',
+      skills: '',
+      email: 'ripi925@cau.ac.kr',
       github: 'https://github.com/gustj1819',
-      photo: '/photos/park.jpg'
+      photo: '/photos/lee-yeryeong.jpg'
+    },
+    {
+      name: 'Minji Jeon (전민지)',
+      role: 'B.S. Student',
+      education: 'Department of Biomedical Engineering, Chung-Ang University',
+      research: 'Biostatistics',
+      skills: '',
+      email: 'mjj10266@cau.ac.kr',
+      github: 'https://github.com/Minnie02',
+      photo: '/photos/jeon.jpg'
     }
   ];
 
   const alumni = [
+    {
+      name: 'Minseok Kim (김민석)',
+      role: 'M.S. (Aug 2026)',
+      current: '',
+      email: 'ipad39@cau.ac.kr',
+      contact: 'https://github.com/softstat'
+    },
+    {
+      name: 'Sieun Lee (이시은)',
+      role: 'M.S. (Aug 2026)',
+      current: '',
+      email: 'tl106@cau.ac.kr',
+      contact: 'https://github.com/SIENN106'
+    },
     {
       name: 'Mina Kim (김민아)',
       role: 'Ph.D. (Feb 2025)',
