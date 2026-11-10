@@ -28,140 +28,140 @@ const PublicationsPage = () => {
     {
       year: 2026,
       title: 'Oncological and perioperative outcomes of robot-assisted radical cystectomy: a real-world cohort study emulating a target trial',
-      authors: 'Kim, M.^, Lee, J.*, Shin, Y. S., Nguyen, T. T., & Choi, S. Y.',
+      authors: 'Kim, M.†, Lee, J.*, Shin, Y. S., Nguyen, T. T., & Choi, S. Y.',
       journal: 'Journal of Robotic Surgery 2026; 20(1): 1023',
       link: 'https://doi.org/10.1007/s11701-026-03975-5'
     },
     {
       year: 2026,
       title: 'Association of early adjunctive dopaminergic therapy and 5-year mortality in Parkinson\'s disease: A nationwide cohort study',
-      authors: 'Lee, S. H., Lee, J.*, Bae, J. H.^, Cho, Y., Hwang, Y. S., Park, K. W., ... & Kang, J. H.',
+      authors: 'Lee, S. H., Lee, J.*, Bae, J. H.†, Cho, Y., Hwang, Y. S., Park, K. W., ... & Kang, J. H.',
       journal: 'Parkinsonism & Related Disorders 2026; 108939',
       link: 'https://doi.org/10.1016/j.parkreldis.2026.108939'
     },
     {
       year: 2026,
       title: 'Association of long-term 5α-reductase inhibitor use with survival in men with renal cell carcinoma: A nationwide population-based cohort study',
-      authors: 'Lee, S.^, Lee, J.*, Min, K., Tae, J. H., Lee, C. U., Choi, J., ... & Choi, S. Y.',
+      authors: 'Lee, S.†, Lee, J.*, Min, K., Tae, J. H., Lee, C. U., Choi, J., ... & Choi, S. Y.',
       journal: 'Frontiers in Pharmacology 2026; 17: 1811121',
       link: 'https://doi.org/10.3389/fphar.2026.1811121'
     },
     {
       year: 2026,
       title: 'Complications after radiotherapy in patients with Graves\' orbitopathy: A nationwide cohort study',
-      authors: 'Lee, J.*, Ahn, H. Y., Heo, J. S., Kim, M.^, & Lee, J. K.',
+      authors: 'Lee, J.*, Ahn, H. Y., Heo, J. S., Kim, M.†, & Lee, J. K.',
       journal: 'Eye 2026; 1-7',
       link: 'https://doi.org/10.1038/s41433-026-04284-9'
     },
     {
       year: 2026,
       title: 'Evaluating the effect of treatment on mortality in Parkinson\'s disease: a target trial emulation using clone-censor-weighting',
-      authors: 'Bae, J. H.^, & Lee, J.*',
+      authors: 'Bae, J. H.†, & Lee, J.*',
       journal: 'J Health Info Stat 2026; Accepted',
       link: 'https://www.e-jhis.org/'
     },
     {
       year: 2026,
       title: 'Comparison of overall survival after open vs. robot-assisted radical cystectomy: a target trial emulation approach to mitigate immortal time bias',
-      authors: 'Kim, M.^, & Lee, J.*',
+      authors: 'Kim, M.†, & Lee, J.*',
       journal: 'The Korean Journal of Applied Statistics 2026; 39(3): 287-300',
       link: 'https://doi.org/10.5351/KJAS.2026.39.3.287'
     },
     {
       year: 2026,
       title: 'Impact of type 2 diabetes on the development of dementia and death in Parkinson\'s disease',
-      authors: 'Lee, S. H., Lee, J.*, Kim, M.^, Kim D-W.^, Hwang Y. S., Park K. W., Jo. S., Kang J-H., Cook, R. J., & Chung S. J.',
+      authors: 'Lee, S. H., Lee, J.*, Kim, M.†, Kim D-W.†, Hwang Y. S., Park K. W., Jo. S., Kang J-H., Cook, R. J., & Chung S. J.',
       journal: 'Parkinsonism & Related Disorders 2026; 144: 108187',
       link: 'https://doi.org/10.1016/j.parkreldis.2026.108187'
     },
      {
       year: 2026,
       title: 'Geographically weighted cause-specific hazard model with application to prostate cancer',
-      authors: 'Kim, M.^, Kim, Y-H., Wang, M., Choi, S. Y., & Lee, J.*',
+      authors: 'Kim, M.†, Kim, Y-H., Wang, M., Choi, S. Y., & Lee, J.*',
       journal: 'Annals of the American Association of Geographers 2026; 116(1): 235–247',
       link: 'https://doi.org/10.1080/24694452.2025.2551037'
     },
     {
       year: 2025,
       title: 'Long-term nonskeletal complications in patients with thyroid cancer and hypoparathyroidism post total thyroidectomy',
-      authors: 'Ku, E. J., Lee, J.*, Yoo, W. S., Bae, J.^, Lee, E. K., & Ahn, H. Y.',
+      authors: 'Ku, E. J., Lee, J.*, Yoo, W. S., Bae, J.†, Lee, E. K., & Ahn, H. Y.',
       journal: 'The Journal of Clinical Endocrinology & Metabolism 2025; 110: 3538-3545',
       link: 'https://doi.org/10.1210/clinem/dgaf213'
     },
     {
       year: 2025,
       title: 'Risk factors and outcomes of Graves\' orbitopathy after radioactive iodine therapy',
-      authors: 'Ahn, H.Y., Lee, J.*, Kim, M.^, & Lee, J. K.',
+      authors: 'Ahn, H.Y., Lee, J.*, Kim, M.†, & Lee, J. K.',
       journal: 'Endocrine 2025; 90: 248-255',
       link: 'https://doi.org/10.1007/s12020-025-04350-4'
     },
     {
       year: 2025,
       title: 'Risk of osteoporotic fractures among patients with thyroid cancer: A nationwide population-based cohort study',
-      authors: 'Ku, E. J., Yoo, W. S., Hwang, Y. B.^, Jang, S.^, Lee, J., Moon, S., ... & Ahn, H. Y.',
+      authors: 'Ku, E. J., Yoo, W. S., Hwang, Y. B.†, Jang, S.†, Lee, J., Moon, S., ... & Ahn, H. Y.',
       journal: 'Endocrinology and Metabolism 2025; 40(2): 225',
       link: 'https://doi.org/10.3803/EnM.2024.2101'
     },
     {
       year: 2025,
       title: 'Second primary cancer risk and survival in prostate cancer patients: A nationwide analysis',
-      authors: 'Hyun, J.^, Lee, J.*, Nguyen, T. T., & Choi, S. Y.',
+      authors: 'Hyun, J.†, Lee, J.*, Nguyen, T. T., & Choi, S. Y.',
       journal: 'Prostate International 2025; 13(3): 148-154',
       link: 'https://doi.org/10.1016/j.prnil.2025.01.004'
     },
     {
       year: 2025,
       title: 'Statin dose trajectories and risk of Graves\' orbitopathy in patients with Graves\' disease using clustering algorithm',
-      authors: 'Kang, J.^, Lee, J. K., Ahn, H. Y., & Lee, J.*',
+      authors: 'Kang, J.†, Lee, J. K., Ahn, H. Y., & Lee, J.*',
       journal: 'J Health Info Stat 2025; 50(1): 104-112',
       link: 'https://doi.org/10.21032/jhis.2025.50.1.104'
     },
     {
       year: 2025,
       title: 'Standing balance test predicts the Berg Balance Scale score in patients with stroke using principal component analysis',
-      authors: 'Cho, J., Ha, S., Lee, J., Kim, M.^, & Kim, H.',
+      authors: 'Cho, J., Ha, S., Lee, J., Kim, M.†, & Kim, H.',
       journal: 'Scientific Reports 2025; 15: 17653',
       link: 'https://doi.org/10.1038/s41598-025-99710-5'
     },
     {
       year: 2025,
       title: 'Osteoporotic Fracture Risk in Hypoparathyroidism Following Total Thyroidectomy: A Retrospective Nationwide Cohort Study',
-      authors: 'Ku, E. J., Yoo, W. S., Hwang, Y. B.^, Jang S.^, Lee, J., Moon S., Lee., E. K., & Ahn, H. Y.',
+      authors: 'Ku, E. J., Yoo, W. S., Hwang, Y. B.†, Jang S.†, Lee, J., Moon S., Lee., E. K., & Ahn, H. Y.',
       journal: 'European Journal of Endocrinology 2025; 193(1): 39-47',
       link: 'https://doi.org/10.1093/ejendo/lvaf128'
     },
     {
       year: 2025,
       title: 'Impact of regular cystoscopy on prognosis in non-muscle-invasive bladder cancer: A nationwide study',
-      authors: 'Kim, J. S.^, Lee, J.*, Lee, C. U., Nguyen, T. T., & Choi, S. Y.',
+      authors: 'Kim, J. S.†, Lee, J.*, Lee, C. U., Nguyen, T. T., & Choi, S. Y.',
       journal: 'Investigative and Clinical Urology 2025; 66(4): 302-310',
       link: 'https://doi.org/10.4111/icu.20240362'
     },
     {
       year: 2024,
       title: 'Mortality in elderly Parkinson\'s disease patients with long-term care needs: A nationwide population-based study in Korea',
-      authors: 'Lee, S. H., Kim, M.^, Heo, W. C., Kim, J. G., Lee, J. S., Kang, J. H., & Lee, J.*',
+      authors: 'Lee, S. H., Kim, M.†, Heo, W. C., Kim, J. G., Lee, J. S., Kang, J. H., & Lee, J.*',
       journal: 'Parkinsonism & Related Disorders 2024; 128: 107150',
       link: 'https://doi.org/10.1016/j.parkreldis.2024.107150'
     },
     {
       year: 2024,
       title: 'Graves\' orbitopathy development in thyroid cancer patients: A 16-year nationwide cohort study in South Korea',
-      authors: 'Kim, M., Lee, J.*, Hwang, Y.B.^, Kang, J.^, Ahn, H. Y., & Lee, J. K.',
+      authors: 'Kim, M., Lee, J.*, Hwang, Y.B.†, Kang, J.†, Ahn, H. Y., & Lee, J. K.',
       journal: 'Eye 2024; 38: 2955–2959',
       link: 'https://doi.org/10.1038/s41433-024-03197-9'
     },
     {
       year: 2024,
       title: 'Stroke walking and balance characteristics via principal component analysis',
-      authors: 'Cho, J., Ha, S., Lee, J., Kim, M.^, & Kim, H.',
+      authors: 'Cho, J., Ha, S., Lee, J., Kim, M.†, & Kim, H.',
       journal: 'Scientific Reports 2024; 14: 10465',
       link: 'https://doi.org/10.1038/s41598-024-60943-5'
     },
     {
       year: 2024,
       title: 'Preoperative smoking and robot-assisted radical cystectomy outcomes & complications in multicenter KORARC database',
-      authors: 'Choi, J., Lee, J., Hwang, Y.B.^ et al.',
+      authors: 'Choi, J., Lee, J., Hwang, Y.B.† et al.',
       journal: 'Scientific Reports 2024; 14: 10550',
       link: 'https://doi.org/10.1038/s41598-024-61005-6'
     },
@@ -175,28 +175,28 @@ const PublicationsPage = () => {
     {
       year: 2024,
       title: 'Optimal timing for the first cystoscopic follow-up using time-to-treatment initiation analysis of oncologic outcomes in primary non-muscle invasive bladder cancer',
-      authors: 'Kim, J. S.^, Lee, J.*, Nguyen, T. T., & Choi, S. Y.',
+      authors: 'Kim, J. S.†, Lee, J.*, Nguyen, T. T., & Choi, S. Y.',
       journal: 'Scientific Reports 2024; 14: 8440',
       link: 'https://doi.org/10.1038/s41598-024-58809-x'
     },
     {
       year: 2024,
       title: 'Increased risk of diabetes mellitus and hyperlipidemia in patients with differentiated thyroid cancer',
-      authors: 'Ahn, H. Y., Lee, J.*, Kang, J.^, & Lee, E. K.',
+      authors: 'Ahn, H. Y., Lee, J.*, Kang, J.†, & Lee, E. K.',
       journal: 'European Journal of Endocrinology 2024; 190(3): 248-255',
       link: 'https://doi.org/10.1093/ejendo/lvae026'
     },
     {
       year: 2024,
       title: 'Factors to predict recurrence after epidural blood patch in patients with spontaneous intracranial hypotension',
-      authors: 'Lee, S. H., Lee, J.*, Kim, D. W.^, Kim, D. H., Ahn, S. J., Choi, M. G., ... & Chung, S. J.',
+      authors: 'Lee, S. H., Lee, J.*, Kim, D. W.†, Kim, D. H., Ahn, S. J., Choi, M. G., ... & Chung, S. J.',
       journal: 'Headache: The Journal of Head and Face Pai 2024; 64: 380-389',
       link: 'https://doi.org/10.1111/head.14703'
     },
     {
       year: 2023,
       title: 'Sex-specific risk factors associated with graves\' orbitopathy in Korean patients with newly diagnosed graves\' disease',
-      authors: 'Lee, J.*, Kang, J.^, Ahn, H. Y., & Lee, J. K.',
+      authors: 'Lee, J.*, Kang, J.†, Ahn, H. Y., & Lee, J. K.',
       journal: 'Eye 2023; 37(16): 3382-3391',
       link: 'https://doi.org/10.1038/s41433-023-02513-z'
     },
@@ -210,14 +210,14 @@ const PublicationsPage = () => {
     {
       year: 2023,
       title: 'Urinary tract infection after radiation therapy or radical prostatectomy on the prognosis of patients with prostate cancer: a population-based study',
-      authors: 'Hyun, J.^, Ha, M. S., Oh, S. Y., Tae, J. H., Chi, B. H., Chang, I. H., ..., Lee, J.*, and Choi, S. Y.',
+      authors: 'Hyun, J.†, Ha, M. S., Oh, S. Y., Tae, J. H., Chi, B. H., Chang, I. H., ..., Lee, J.*, and Choi, S. Y.',
       journal: 'BMC Cancer 2023; 23(1): 1-11',
       link: 'https://doi.org/10.1186/s12885-023-10869-4'
     },
     {
       year: 2023,
       title: 'Penalized Cox regression analysis from Parkinson\'s disease to freezing of gait using multiple kernels',
-      authors: 'Kim, D.W.^, Lee, J.*',
+      authors: 'Kim, D.W.†, Lee, J.*',
       journal: 'J Health Info Stat 2023; 48(10): 81-88',
       link: 'https://doi.org/10.21032/jhis.2023.48.1.81'
     },
@@ -238,7 +238,7 @@ const PublicationsPage = () => {
     {
       year: 2022,
       title: 'Clinical factors and dopamine transporter availability for the prediction of outcomes after globus pallidus deep brain stimulation in Parkinson\'s disease',
-      authors: 'Lee, S. H., Kim, M.^, Lee, J., Kim, J. W., Kim, M. S., Jo, S., ... and Chung, S. J.',
+      authors: 'Lee, S. H., Kim, M.†, Lee, J., Kim, J. W., Kim, M. S., Jo, S., ... and Chung, S. J.',
       journal: 'Scientific Reports 2022; 12(1): 1-8',
       link: 'https://doi.org/10.1038/s41598-022-19150-3'
     },
@@ -538,7 +538,7 @@ const PublicationsPage = () => {
 
           <div className="publications-content">
             <div className="publications-legend" style={{ marginBottom: '2rem', fontSize: '0.9rem', color: 'var(--text-light)' }}>
-              * denotes first/corresponding authorship | ^ denotes trainee
+              * denotes first/corresponding authorship | † denotes trainee
             </div>
             {Object.keys(groupedPublications)
               .sort((a, b) => b - a)

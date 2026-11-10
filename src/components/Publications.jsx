@@ -5,7 +5,7 @@ const Publications = () => {
     {
       year: 2026,
       title: 'Impact of type 2 diabetes on the development of dementia and death in Parkinson\'s disease',
-      authors: 'Lee, S. H., Lee, J.*, Kim, M.^, et al.',
+      authors: 'Lee, S. H., Lee, J.*, Kim, M.†, et al.',
       journal: 'Parkinsonism & Related Disorders',
       link: 'https://doi.org/10.1016/j.parkreldis.2026.108187',
       image: '/publications/PRD2026.png'
@@ -13,7 +13,7 @@ const Publications = () => {
     {
       year: 2026,
       title: 'Geographically weighted cause-specific hazard model with application to prostate cancer',
-      authors: 'Kim, M.^, Kim, Y-H., Wang, M., et al.',
+      authors: 'Kim, M.†, Kim, Y-H., Wang, M., et al.',
       journal: 'Annals of the American Association of Geographers',
       link: 'https://doi.org/10.1080/24694452.2025.2551037',
       image: '/publications/AAAG2026.png'
@@ -21,7 +21,7 @@ const Publications = () => {
     {
       year: 2025,
       title: 'Long-term nonskeletal complications in patients with thyroid cancer and hypoparathyroidism post total thyroidectomy',
-      authors: 'Ku, E. J., Lee, J.*, Yoo, W. S., Bae, J.^, Lee, E. K., & Ahn, H. Y.',
+      authors: 'Ku, E. J., Lee, J.*, Yoo, W. S., Bae, J.†, Lee, E. K., & Ahn, H. Y.',
       journal: 'The Journal of Clinical Endocrinology & Metabolism',
       link: 'https://doi.org/10.1210/clinem/dgaf213',
       image: '/publications/JCEM2025.png'
