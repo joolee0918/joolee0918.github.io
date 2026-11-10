@@ -28,7 +28,7 @@ const TeachingPage = () => {
       title: 'Statistics for Pharmaceutical and Biohealth Sciences',
       semester: 'Fall 2026',
       level: 'Graduate',
-      description: 'Statistical methods for pharmaceutical and biohealth research, including study design, hypothesis testing, regression, and analysis of clinical and real-world data.'
+      description: 'Introduction to data analysis using the National Health Insurance Service (NHIS) database for pharmaceutical and biohealth research.'
     },
     {
       code: '',
