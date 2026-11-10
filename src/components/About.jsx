@@ -14,7 +14,7 @@ const About = () => {
           </div>
           <div className="about-intro">
             <p className="description">
-              <em>Jooyoung Lee</em> is an Associate Professor in the Department of Applied Statistics at Chung-Ang University.
+              <em>Jooyoung Lee</em> is an Associate Professor in the Department of Applied Statistics and the Department of Pharmacy and Biohealth Industry at Chung-Ang University.
               She leads a research group focused on developing innovative statistical methods for survival analysis,
               causal inference, and machine learning applications in healthcare. Her work bridges theoretical methodology
               with practical applications in biomedical research through extensive collaborations with medical researchers.

@@ -21,7 +21,7 @@ const PublicationsPage = () => {
     {
       year: 2026,
       title: 'Multidimensional characterization of lifetime neurological phenotypes in CADASIL: A Korean nationwide cohort study',
-      authors: 'Lee, S. H., Lee, Y.†, Lee, J.*, ... & Choi, J. C.',
+      authors: 'Lee, S. H., Lee, Y.†, Lee, J., ... & Choi, J. C.',
       journal: 'Neurology 2026; Accepted',
       link: 'https://www.neurology.org/'
     },

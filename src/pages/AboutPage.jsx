@@ -34,6 +34,16 @@ const AboutPage = () => {
         period: '2025 - Present'
       },
       {
+        position: 'Associate Professor',
+        institution: 'Department of Pharmacy and Biohealth Industry, Chung-Ang University',
+        period: '2025 - Present'
+      },
+      {
+        position: 'Associate Professor',
+        institution: 'Department of Statistics and Data Science, Chung-Ang University',
+        period: '2025 - Present'
+      },
+      {
         position: 'Assistant Professor',
         institution: 'Department of Applied Statistics, Chung-Ang University',
         period: '2021 - 2025'

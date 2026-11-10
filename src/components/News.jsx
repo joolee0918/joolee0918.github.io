@@ -1,26 +1,8 @@
+import { newsItems as allNews } from '../data/news';
 import './News.css';
 
 const News = () => {
-  const newsItems = [
-    {
-      date: '2026-01-24',
-      title: 'Invited Seminar',
-      description: 'Jooyoung Lee presented at the EPIWINTER on January 24, 2026 on "Understanding Target Trial Emulation for Clinicians". The talk focused on introducing target trial emulation methods to clinicians for stroke research.',
-      category: 'Seminar'
-    },
-    {
-      date: '2026-01-22',
-      title: 'New Lab Member',
-      description: 'We are delighted to welcome Hyunseo Park, an undergraduate student, to our research lab. Hyunseo will be working on biostatistical methods and data analysis projects.',
-      category: 'Lab News'
-    },
-    {
-      date: '2026-01-06',
-      title: 'Paper Published in Parkinsonism & Related Disorders',
-      description: 'Our research on "Impact of type 2 diabetes on the development of dementia and death in Parkinson\'s disease" has been published in Parkinsonism & Related Disorders. This study examines how type 2 diabetes affects dementia development and mortality in patients with Parkinson\'s disease.',
-      category: 'Publication'
-    }
-  ];
+  const newsItems = allNews.slice(0, 4);
 
   const getCategoryColor = (category) => {
     const colors = {
@@ -34,8 +16,13 @@ const News = () => {
   };
 
   const formatDate = (dateString) => {
+    const [year, month, day] = dateString.split('-').map(Number);
+    if (!day) {
+      // Month-only date ('YYYY-MM'): show month and year
+      return new Date(year, month - 1, 1).toLocaleDateString('en-US', { year: 'numeric', month: 'long' });
+    }
     const options = { year: 'numeric', month: 'long', day: 'numeric' };
-    return new Date(dateString).toLocaleDateString('en-US', options);
+    return new Date(year, month - 1, day).toLocaleDateString('en-US', options);
   };
 
   return (

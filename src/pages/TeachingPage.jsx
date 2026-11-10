@@ -5,7 +5,7 @@ const TeachingPage = () => {
     {
       code: '',
       title: 'Survival Analysis',
-      semester: 'Spring 2021, Spring 2022, Fall 2024',
+      semester: 'Spring 2021, Spring 2022, Fall 2024, Fall 2026',
       level: 'Graduate',
       description: 'Advanced methods for time-to-event data analysis, including Kaplan-Meier curves, parametric models, and Cox models.'
     },
@@ -19,9 +19,16 @@ const TeachingPage = () => {
     {
       code: '',
       title: 'Advanced Biostatistics',
-      semester: 'Fall 2023',
+      semester: 'Fall 2023, Spring 2026',
       level: 'Graduate',
       description: 'Study design and statistical methods for clinical trials including protocol development, phase I-III trials, sample size calculation, sequential trials, and survival analysis with case studies using SAS/R.'
+    },
+    {
+      code: '',
+      title: 'Statistics for Pharmaceutical and Biohealth Sciences',
+      semester: 'Fall 2026',
+      level: 'Graduate',
+      description: 'Statistical methods for pharmaceutical and biohealth research, including study design, hypothesis testing, regression, and analysis of clinical and real-world data.'
     },
     {
       code: '',
@@ -33,14 +40,14 @@ const TeachingPage = () => {
     {
       code: '',
       title: 'Actuarial Statistics',
-      semester: 'Spring 2022, Spring 2023, Spring 2025',
+      semester: 'Spring 2022, Spring 2023, Spring 2025, Spring 2026',
       level: 'Undergraduate',
       description: 'Actuarial mathematics for life insurance including survival models, life tables, insurance and annuity payments, premium calculation, and policy values.'
     },
     {
       code: '',
       title: 'Biostatistics',
-      semester: 'Fall 2023, Fall 2024, Fall 2025',
+      semester: 'Fall 2023, Fall 2024, Fall 2025, Fall 2026',
       level: 'Undergraduate',
       description: 'Introduction to statistical methods for analyzing health and biological data, including descriptive statistics, inference, basic regression, and introduction to survival analysis.'
     },
@@ -61,6 +68,16 @@ const TeachingPage = () => {
   ];
 
   const workshops = [
+    {
+      title: 'Survival Analysis Workshop',
+      date: 'January 29, 2026',
+      location: 'Hanyang University, Seoul, Korea'
+    },
+    {
+      title: 'Survival Analysis Workshop',
+      date: 'January 24, 2025',
+      location: 'Hanyang University, Seoul, Korea'
+    },
     {
       title: 'Survival Analysis Workshop',
       date: 'January 24, 2024',
