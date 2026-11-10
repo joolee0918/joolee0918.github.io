@@ -127,7 +127,7 @@ const People = () => {
   const alumni = [
     {
       name: 'Minseok Kim (김민석)',
-      role: 'M.S. (Aug 2026)',
+      role: 'M.S. (Feb 2026)',
       current: '',
       email: 'ipad39@cau.ac.kr',
       contact: 'https://github.com/softstat'
@@ -135,7 +135,7 @@ const People = () => {
     {
       name: 'Sieun Lee (이시은)',
       role: 'M.S. (Aug 2026)',
-      current: '',
+      current: 'Seoul National University, Public Health',
       email: 'tl106@cau.ac.kr',
       contact: 'https://github.com/SIENN106'
     },
@@ -156,7 +156,7 @@ const People = () => {
     {
       name: 'SoYeon Kwon (권소연)',
       role: 'M.S. (Feb 2025)',
-      current: '',
+      current: 'GradeHealthChain',
       email: 'ksoy120074@cau.ac.kr',
       contact: 'https://github.com/ksy0111'
     },

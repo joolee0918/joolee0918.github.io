@@ -27,13 +27,7 @@ export const newsItems = [
   {
     date: '2026-09',
     title: 'New Lab Members',
-    description: 'We are delighted to welcome new M.S. students Eunseo Moon, Soojung Lee, Soojin Lee, and Kseniia Chigai, and undergraduate students Yeryeong Lee and Minji Jeon to our lab.',
-    category: 'Lab News'
-  },
-  {
-    date: '2026-08',
-    title: 'Congratulations to Our Graduates',
-    description: 'Congratulations to Minseok Kim and Sieun Lee on completing their M.S. degrees. We wish them all the best in their next chapter.',
+    description: 'We are delighted to welcome Kseniia Chigai, an M.S. student, and Yeryeong Lee, an undergraduate student, to our lab.',
     category: 'Lab News'
   },
   {
@@ -41,6 +35,12 @@ export const newsItems = [
     title: 'Paper Published in Parkinsonism & Related Disorders',
     description: 'Our paper "Association of early adjunctive dopaminergic therapy and 5-year mortality in Parkinson\'s disease: A nationwide cohort study" has been published in Parkinsonism & Related Disorders.',
     category: 'Publication'
+  },
+  {
+    date: '2026-08',
+    title: 'Congratulations to Sieun Lee',
+    description: 'Congratulations to Sieun Lee on completing the M.S. degree. We wish Sieun all the best in the next chapter.',
+    category: 'Lab News'
   },
   {
     date: '2026-07-13',
@@ -67,10 +67,22 @@ export const newsItems = [
     category: 'Publication'
   },
   {
+    date: '2026-03',
+    title: 'New Lab Members',
+    description: 'We are delighted to welcome new M.S. students Heeseo Shin, Eunseo Moon, Soojung Lee, and Soojin Lee, and undergraduate student Minji Jeon to our lab.',
+    category: 'Lab News'
+  },
+  {
     date: '2026-02-21',
     title: 'Paper Published in Eye',
     description: 'Our paper "Complications after radiotherapy in patients with Graves\' orbitopathy: A nationwide cohort study" has been published in Eye.',
     category: 'Publication'
+  },
+  {
+    date: '2026-02',
+    title: 'Congratulations to Minseok Kim',
+    description: 'Congratulations to Minseok Kim on completing the M.S. degree. We wish Minseok all the best in the next chapter.',
+    category: 'Lab News'
   },
   {
     date: '2026-01-24',
