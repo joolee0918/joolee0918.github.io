@@ -50,7 +50,7 @@ const PublicationsPage = () => {
       year: 2026,
       title: 'Complications after radiotherapy in patients with Graves\' orbitopathy: A nationwide cohort study',
       authors: 'Lee, J.*, Ahn, H. Y., Heo, J. S., Kim, M.†, & Lee, J. K.',
-      journal: 'Eye 2026; 1-7',
+      journal: 'Eye 2026; 40: 1067-1073',
       link: 'https://doi.org/10.1038/s41433-026-04284-9'
     },
     {

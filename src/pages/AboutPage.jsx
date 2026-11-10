@@ -36,7 +36,7 @@ const AboutPage = () => {
       {
         position: 'Associate Professor',
         institution: 'Department of Pharmacy and Biohealth Industry, Chung-Ang University',
-        period: '2025 - Present'
+        period: '2026 - Present'
       },
       {
         position: 'Associate Professor',
