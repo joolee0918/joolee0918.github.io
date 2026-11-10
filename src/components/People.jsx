@@ -71,6 +71,26 @@ const People = () => {
       email: 'jisoo37@cau.ac.kr',
       github: 'https://github.com/jisoo3737',
       photo: '/photos/lee-jisoo.jpg'
+    },
+    {
+      name: 'Heeseo Shin (신희서)',
+      role: 'M.S. Candidate',
+      education: 'Department of Statistics and Data Science, Chung-Ang University',
+      research: 'Biostatistics',
+      skills: '',
+      email: 'heese0@cau.ac.kr',
+      github: 'https://github.com/heese0o',
+      photo: '/photos/shin.jpg'
+    },
+    {
+      name: 'Hyunseo Park (박현서)',
+      role: 'B.S. Student, Department of Statistics, Ewha Womans University',
+      education: '',
+      research: 'Missing Data Imputation, Pharmacoepidemiology',
+      skills: '',
+      email: 'qkrgustj0029@naver.com',
+      github: 'https://github.com/gustj1819',
+      photo: '/photos/park.jpg'
     }
   ];
 

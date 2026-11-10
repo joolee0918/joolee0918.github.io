@@ -20,6 +20,55 @@ const PublicationsPage = () => {
   const publications = [
     {
       year: 2026,
+      title: 'Multidimensional characterization of lifetime neurological phenotypes in CADASIL: A Korean nationwide cohort study',
+      authors: 'Lee, S. H., Lee, Y., Lee, J.*, ... & Choi, J. C.',
+      journal: 'Neurology 2026; Accepted',
+      link: 'https://www.neurology.org/'
+    },
+    {
+      year: 2026,
+      title: 'Oncological and perioperative outcomes of robot-assisted radical cystectomy: a real-world cohort study emulating a target trial',
+      authors: 'Kim, M.^, Lee, J.*, Shin, Y. S., Nguyen, T. T., & Choi, S. Y.',
+      journal: 'Journal of Robotic Surgery 2026; 20(1): 1023',
+      link: 'https://doi.org/10.1007/s11701-026-03975-5'
+    },
+    {
+      year: 2026,
+      title: 'Association of early adjunctive dopaminergic therapy and 5-year mortality in Parkinson\'s disease: A nationwide cohort study',
+      authors: 'Lee, S. H., Lee, J.*, Bae, J. H.^, Cho, Y., Hwang, Y. S., Park, K. W., ... & Kang, J. H.',
+      journal: 'Parkinsonism & Related Disorders 2026; 108939',
+      link: 'https://doi.org/10.1016/j.parkreldis.2026.108939'
+    },
+    {
+      year: 2026,
+      title: 'Association of long-term 5α-reductase inhibitor use with survival in men with renal cell carcinoma: A nationwide population-based cohort study',
+      authors: 'Lee, S.^, Lee, J.*, Min, K., Tae, J. H., Lee, C. U., Choi, J., ... & Choi, S. Y.',
+      journal: 'Frontiers in Pharmacology 2026; 17: 1811121',
+      link: 'https://doi.org/10.3389/fphar.2026.1811121'
+    },
+    {
+      year: 2026,
+      title: 'Complications after radiotherapy in patients with Graves\' orbitopathy: A nationwide cohort study',
+      authors: 'Lee, J.*, Ahn, H. Y., Heo, J. S., Kim, M.^, & Lee, J. K.',
+      journal: 'Eye 2026; 1-7',
+      link: 'https://doi.org/10.1038/s41433-026-04284-9'
+    },
+    {
+      year: 2026,
+      title: 'Evaluating the effect of treatment on mortality in Parkinson\'s disease: a target trial emulation using clone-censor-weighting',
+      authors: 'Bae, J. H.^, & Lee, J.*',
+      journal: 'J Health Info Stat 2026; Accepted',
+      link: 'https://www.e-jhis.org/'
+    },
+    {
+      year: 2026,
+      title: 'Comparison of overall survival after open vs. robot-assisted radical cystectomy: a target trial emulation approach to mitigate immortal time bias',
+      authors: 'Kim, M.^, & Lee, J.*',
+      journal: 'The Korean Journal of Applied Statistics 2026; 39(3): 287-300',
+      link: 'https://doi.org/10.5351/KJAS.2026.39.3.287'
+    },
+    {
+      year: 2026,
       title: 'Impact of type 2 diabetes on the development of dementia and death in Parkinson\'s disease',
       authors: 'Lee, S. H., Lee, J.*, Kim, M.^, Kim D-W.^, Hwang Y. S., Park K. W., Jo. S., Kang J-H., Cook, R. J., & Chung S. J.',
       journal: 'Parkinsonism & Related Disorders 2026; 144: 108187',
@@ -252,6 +301,54 @@ const PublicationsPage = () => {
   ];
 
   const talks = [
+    {
+      year: 2026,
+      date: 'November 6, 2026',
+      title: 'Statistical methods for addressing post-progression treatment switching',
+      event: 'Joint Statistical Conference for Clinical Trials and Research',
+      type: 'Conference Presentation',
+      location: 'Seoul, Korea'
+    },
+    {
+      year: 2026,
+      date: 'October 16, 2026',
+      title: 'Statistical methods for addressing post-progression treatment switching',
+      event: 'Chung-Ang University',
+      type: 'Invited Seminar',
+      location: 'Seoul, Korea'
+    },
+    {
+      year: 2026,
+      date: 'September 9, 2026',
+      title: 'The future investigator\'s toolkit',
+      event: '2026 KALC Workshop for International Young Members',
+      type: 'Topic Contributed',
+      location: 'Seoul, Korea'
+    },
+    {
+      year: 2026,
+      date: 'July 13, 2026',
+      title: 'Random forest for recurrent events and a terminal event',
+      event: 'International Biometric Conference',
+      type: 'Conference Presentation',
+      location: 'Seoul, Korea'
+    },
+    {
+      year: 2026,
+      date: 'May 22, 2026',
+      title: 'Estimating treatment effects in oncology trials with treatment switching',
+      event: 'Sookmyung Women\'s University',
+      type: 'Invited Talk',
+      location: 'Seoul, Korea'
+    },
+    {
+      year: 2026,
+      date: 'May 22, 2026',
+      title: 'Estimating treatment effects in oncology trials with treatment switching',
+      event: 'Seoul National University',
+      type: 'Invited Talk',
+      location: 'Seoul, Korea'
+    },
      {
       year: 2026,
       date: 'January 24, 2026',
