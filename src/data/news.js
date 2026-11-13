@@ -33,7 +33,7 @@ export const newsItems = [
   {
     date: '2026-08-17',
     title: 'Paper Published in Parkinsonism & Related Disorders',
-    description: 'Our paper "Association of early adjunctive dopaminergic therapy and 5-year mortality in Parkinson\'s disease: A nationwide cohort study" has been published in Parkinsonism & Related Disorders.',
+    description: 'Our paper "Association of early adjunctive dopaminergic therapy and 5-year mortality in Parkinson\'s disease: A nationwide cohort study", co-authored by Janghyeon Bae, has been published in Parkinsonism & Related Disorders.',
     category: 'Publication'
   },
   {
@@ -75,7 +75,7 @@ export const newsItems = [
   {
     date: '2026-02-21',
     title: 'Paper Published in Eye',
-    description: 'Our paper "Complications after radiotherapy in patients with Graves\' orbitopathy: A nationwide cohort study" has been published in Eye.',
+    description: 'Our paper "Complications after radiotherapy in patients with Graves\' orbitopathy: A nationwide cohort study", co-authored by Mina Kim, has been published in Eye.',
     category: 'Publication'
   },
   {
@@ -93,7 +93,7 @@ export const newsItems = [
   {
     date: '2026-01-06',
     title: 'Paper Published in Parkinsonism & Related Disorders',
-    description: 'Our research on "Impact of type 2 diabetes on the development of dementia and death in Parkinson\'s disease" has been published in Parkinsonism & Related Disorders. This study examines how type 2 diabetes affects dementia development and mortality in patients with Parkinson\'s disease.',
+    description: 'Our research on "Impact of type 2 diabetes on the development of dementia and death in Parkinson\'s disease", co-authored by Mina Kim and Da-Woon Kim, has been published in Parkinsonism & Related Disorders. This study examines how type 2 diabetes affects dementia development and mortality in patients with Parkinson\'s disease.',
     category: 'Publication'
   }
 ];
